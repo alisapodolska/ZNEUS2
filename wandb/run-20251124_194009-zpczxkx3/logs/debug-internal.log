@@ -1,0 +1,9 @@
+{"time":"2025-11-24T19:40:09.9178117+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T19:40:09.9186489+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_194009-zpczxkx3\\logs\\debug-core.log"}
+{"time":"2025-11-24T19:40:10.068246+01:00","level":"INFO","msg":"created new stream","id":"zpczxkx3"}
+{"time":"2025-11-24T19:40:10.0688677+01:00","level":"INFO","msg":"stream: started","id":"zpczxkx3"}
+{"time":"2025-11-24T19:40:10.0688677+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zpczxkx3"}
+{"time":"2025-11-24T19:40:10.0688677+01:00","level":"INFO","msg":"handler: started","stream_id":"zpczxkx3"}
+{"time":"2025-11-24T19:40:10.0688677+01:00","level":"INFO","msg":"sender: started","stream_id":"zpczxkx3"}
+{"time":"2025-11-24T19:40:10.6473575+01:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-11-24T19:40:10.6478633+01:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}

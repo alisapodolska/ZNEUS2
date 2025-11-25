@@ -1,0 +1,19 @@
+{"time":"2025-11-24T19:57:49.4847286+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T19:57:49.4877864+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_195749-esjyd7ni\\logs\\debug-core.log"}
+{"time":"2025-11-24T19:57:50.3601402+01:00","level":"INFO","msg":"created new stream","id":"esjyd7ni"}
+{"time":"2025-11-24T19:57:50.3608745+01:00","level":"INFO","msg":"stream: started","id":"esjyd7ni"}
+{"time":"2025-11-24T19:57:50.361395+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T19:57:50.3625365+01:00","level":"INFO","msg":"handler: started","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T19:57:50.361395+01:00","level":"INFO","msg":"sender: started","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T19:57:51.08744+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-24T20:03:47.3991167+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-11-24T20:04:03.4756758+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-11-24T20:04:03.5728035+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-24T20:04:03.577798+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-24T20:04:04.575364+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.5360861},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5015353,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.2300565,"progress":"805B/805B"},{"desc":"uploading output.log","runtime_seconds":0.2300565}],"total_operations":4}}
+{"time":"2025-11-24T20:04:07.403423+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-24T20:04:08.7106821+01:00","level":"INFO","msg":"stream: closing","id":"esjyd7ni"}
+{"time":"2025-11-24T20:04:08.7106821+01:00","level":"INFO","msg":"handler: closed","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T20:04:08.7106821+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T20:04:08.7106821+01:00","level":"INFO","msg":"sender: closed","stream_id":"esjyd7ni"}
+{"time":"2025-11-24T20:04:08.7127854+01:00","level":"INFO","msg":"stream: closed","id":"esjyd7ni"}

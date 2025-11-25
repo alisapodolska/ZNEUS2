@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "3.12.6",
+  "startedAt":  "2025-11-24T18:57:49.427772Z",
+  "program":  "animal_classification.ipynb",
+  "git":  {
+    "remote":  "https://github.com/alisapodolska/ZNEUS2.git",
+    "commit":  "b719d2413c3af272f28d9804f8cd29200d6c8f46"
+  },
+  "email":  "xpodolskaa@stuba.sk",
+  "root":  "C:\\fiit\\ZNEUS\\ZNEUS2",
+  "host":  "Alisa",
+  "username":  "podol",
+  "executable":  "C:\\Users\\podol\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal":  "animal_classification.ipynb",
+  "cpu_count":  10,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "1022571646976",
+      "used":  "913068929024"
+    }
+  },
+  "memory":  {
+    "total":  "16858963968"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  12
+  }
+}

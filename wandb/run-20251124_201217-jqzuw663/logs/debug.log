@@ -1,0 +1,81 @@
+2025-11-24 20:12:17,544 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-11-24 20:12:17,545 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Configure stats pid to 25304
+2025-11-24 20:12:17,546 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from C:\Users\podol\.config\wandb\settings
+2025-11-24 20:12:17,546 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from C:\fiit\ZNEUS\ZNEUS2\wandb\settings
+2025-11-24 20:12:17,547 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-11-24 20:12:17,547 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-11-24 20:12:17,549 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-11-24 20:12:17,549 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-11-24 20:12:17,549 INFO    MainThread:25304 [wandb_init.py:_log_setup():533] Logging user logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_201217-jqzuw663\logs\debug.log
+2025-11-24 20:12:17,552 INFO    MainThread:25304 [wandb_init.py:_log_setup():534] Logging internal logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_201217-jqzuw663\logs\debug-internal.log
+2025-11-24 20:12:17,552 INFO    MainThread:25304 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002A01F566720>
+2025-11-24 20:12:17,553 INFO    MainThread:25304 [wandb_init.py:init():619] calling init triggers
+2025-11-24 20:12:17,554 INFO    MainThread:25304 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'img_size': 224, 'optimizer': 'adam', 'lr': 0.0001, 'architecture': 'animal_model'}
+2025-11-24 20:12:17,555 INFO    MainThread:25304 [wandb_init.py:init():644] re-initializing run, found existing run on stack: nwi4lbol
+2025-11-24 20:12:17,563 INFO    MainThread:25304 [wandb_run.py:_finish():2155] finishing run xpodolskaa-stuba/zz_test/nwi4lbol
+2025-11-24 20:12:17,564 INFO    MainThread:25304 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2025-11-24 20:12:17,566 INFO    MainThread:25304 [wandb_run.py:_restore():2402] restore
+2025-11-24 20:12:17,567 INFO    MainThread:25304 [wandb_run.py:_restore():2408] restore done
+2025-11-24 20:12:23,042 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2025-11-24 20:12:23,042 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2025-11-24 20:12:23,077 INFO    MainThread:25304 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2025-11-24 20:12:23,091 INFO    MainThread:25304 [wandb_init.py:init():669] starting backend
+2025-11-24 20:12:23,091 INFO    MainThread:25304 [wandb_init.py:init():673] sending inform_init request
+2025-11-24 20:12:23,111 INFO    MainThread:25304 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-11-24 20:12:23,114 INFO    MainThread:25304 [wandb_init.py:init():686] backend started and connected
+2025-11-24 20:12:23,184 INFO    MainThread:25304 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2025-11-24 20:12:23,196 INFO    MainThread:25304 [wandb_init.py:init():781] updated telemetry
+2025-11-24 20:12:23,339 INFO    MainThread:25304 [wandb_init.py:init():814] communicating run to backend with 300.0 second timeout
+2025-11-24 20:12:23,782 INFO    MainThread:25304 [wandb_init.py:init():867] starting run threads in backend
+2025-11-24 20:12:24,666 INFO    MainThread:25304 [wandb_run.py:_console_start():2456] atexit reg
+2025-11-24 20:12:24,667 INFO    MainThread:25304 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2025-11-24 20:12:24,668 INFO    MainThread:25304 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-11-24 20:12:24,668 INFO    MainThread:25304 [wandb_run.py:_redirect():2395] Redirects installed.
+2025-11-24 20:12:24,672 INFO    MainThread:25304 [wandb_init.py:init():911] run started, returning control to user process
+2025-11-24 20:12:24,672 INFO    MainThread:25304 [wandb_watch.py:_watch():71] Watching
+2025-11-24 20:14:26,882 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:14:26,882 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:14:34,020 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:15:08,805 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:15:08,806 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:15:08,842 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:15:18,629 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:15:18,631 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:15:52,547 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:16:00,126 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:16:00,128 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:16:08,134 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:16:17,577 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:16:17,578 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:18:23,036 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:19:34,403 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:19:34,406 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:20:17,008 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:20:17,013 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:20:17,014 INFO    MainThread:25304 [wandb_init.py:_pause_backend():444] pausing backend
+2025-11-24 20:20:18,261 INFO    MainThread:25304 [wandb_init.py:_resume_backend():449] resuming backend
+2025-11-24 20:20:18,325 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-11-24 20:20:18,328 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Configure stats pid to 25304
+2025-11-24 20:20:18,328 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from C:\Users\podol\.config\wandb\settings
+2025-11-24 20:20:18,328 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from C:\fiit\ZNEUS\ZNEUS2\wandb\settings
+2025-11-24 20:20:18,329 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-11-24 20:20:18,329 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-11-24 20:20:18,330 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-11-24 20:20:18,330 INFO    MainThread:25304 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-11-24 20:20:18,330 INFO    MainThread:25304 [wandb_init.py:_log_setup():533] Logging user logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_202018-dw6q2rnd\logs\debug.log
+2025-11-24 20:20:18,332 INFO    MainThread:25304 [wandb_init.py:_log_setup():534] Logging internal logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_202018-dw6q2rnd\logs\debug-internal.log
+2025-11-24 20:20:18,332 INFO    MainThread:25304 [wandb_init.py:init():619] calling init triggers
+2025-11-24 20:20:18,332 INFO    MainThread:25304 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'img_size': 224, 'optimizer': 'adam', 'lr': 0.0001, 'architecture': 'animal_model'}
+2025-11-24 20:20:18,332 INFO    MainThread:25304 [wandb_init.py:init():644] re-initializing run, found existing run on stack: jqzuw663
+2025-11-24 20:20:18,336 INFO    MainThread:25304 [wandb_run.py:_finish():2155] finishing run xpodolskaa-stuba/animalClassification/jqzuw663
+2025-11-24 20:20:18,338 INFO    MainThread:25304 [jupyter.py:save_history():459] not saving jupyter history
+2025-11-24 20:20:18,338 INFO    MainThread:25304 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-11-24 20:20:18,338 INFO    MainThread:25304 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2025-11-24 20:20:18,338 INFO    MainThread:25304 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2025-11-24 20:20:18,340 INFO    MainThread:25304 [wandb_run.py:_restore():2402] restore
+2025-11-24 20:20:18,341 INFO    MainThread:25304 [wandb_run.py:_restore():2408] restore done
+2025-11-24 20:20:23,197 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2025-11-24 20:20:23,198 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2025-11-24 20:20:23,220 INFO    MainThread:25304 [wandb_run.py:_footer_sync_info():3921] logging synced files

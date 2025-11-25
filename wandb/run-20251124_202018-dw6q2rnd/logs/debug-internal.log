@@ -1,0 +1,8 @@
+{"time":"2025-11-24T20:20:23.258868+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T20:20:23.258868+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_202018-dw6q2rnd\\logs\\debug-core.log"}
+{"time":"2025-11-24T20:20:29.264926+01:00","level":"INFO","msg":"created new stream","id":"dw6q2rnd"}
+{"time":"2025-11-24T20:20:29.2654656+01:00","level":"INFO","msg":"stream: started","id":"dw6q2rnd"}
+{"time":"2025-11-24T20:20:29.2654656+01:00","level":"INFO","msg":"sender: started","stream_id":"dw6q2rnd"}
+{"time":"2025-11-24T20:20:29.2654656+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dw6q2rnd"}
+{"time":"2025-11-24T20:20:29.2654656+01:00","level":"INFO","msg":"handler: started","stream_id":"dw6q2rnd"}
+{"time":"2025-11-24T20:20:29.7550099+01:00","level":"INFO","msg":"Starting system monitor"}

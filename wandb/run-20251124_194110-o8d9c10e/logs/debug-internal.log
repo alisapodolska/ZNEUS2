@@ -1,0 +1,7 @@
+{"time":"2025-11-24T19:41:10.1702097+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T19:41:10.170809+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_194110-o8d9c10e\\logs\\debug-core.log"}
+{"time":"2025-11-24T19:41:10.3081409+01:00","level":"INFO","msg":"created new stream","id":"o8d9c10e"}
+{"time":"2025-11-24T19:41:10.3087525+01:00","level":"INFO","msg":"stream: started","id":"o8d9c10e"}
+{"time":"2025-11-24T19:41:10.3087525+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"o8d9c10e"}
+{"time":"2025-11-24T19:41:10.3087525+01:00","level":"INFO","msg":"sender: started","stream_id":"o8d9c10e"}
+{"time":"2025-11-24T19:41:10.3087525+01:00","level":"INFO","msg":"handler: started","stream_id":"o8d9c10e"}

@@ -1,0 +1,63 @@
+2025-11-24 19:41:10,121 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-11-24 19:41:10,123 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Configure stats pid to 28116
+2025-11-24 19:41:10,124 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from C:\Users\podol\.config\wandb\settings
+2025-11-24 19:41:10,124 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from C:\fiit\ZNEUS\ZNEUS2\wandb\settings
+2025-11-24 19:41:10,125 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-11-24 19:41:10,126 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-11-24 19:41:10,127 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-11-24 19:41:10,129 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-11-24 19:41:10,132 INFO    MainThread:28116 [wandb_init.py:_log_setup():533] Logging user logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_194110-o8d9c10e\logs\debug.log
+2025-11-24 19:41:10,135 INFO    MainThread:28116 [wandb_init.py:_log_setup():534] Logging internal logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_194110-o8d9c10e\logs\debug-internal.log
+2025-11-24 19:41:10,136 INFO    MainThread:28116 [wandb_init.py:init():619] calling init triggers
+2025-11-24 19:41:10,137 INFO    MainThread:28116 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'img_size': 224, 'optimizer': 'adam', 'lr': 0.0001, 'architecture': 'animal_model'}
+2025-11-24 19:41:10,138 INFO    MainThread:28116 [wandb_init.py:init():669] starting backend
+2025-11-24 19:41:10,138 INFO    MainThread:28116 [wandb_init.py:init():673] sending inform_init request
+2025-11-24 19:41:10,163 INFO    MainThread:28116 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-11-24 19:41:10,167 INFO    MainThread:28116 [wandb_init.py:init():686] backend started and connected
+2025-11-24 19:41:10,220 INFO    MainThread:28116 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2025-11-24 19:41:10,233 INFO    MainThread:28116 [wandb_init.py:init():781] updated telemetry
+2025-11-24 19:41:10,404 INFO    MainThread:28116 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2025-11-24 19:42:41,063 ERROR   MainThread:28116 [wandb_init.py:init():841] encountered error: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-11-24 19:42:41,064 ERROR   MainThread:28116 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\podol\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\podol\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 847, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-11-24 19:44:42,754 INFO    MainThread:28116 [wandb_settings.py:_apply_login():1989] Applying login settings: {}
+2025-11-24 19:44:42,781 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-11-24 19:44:42,782 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Configure stats pid to 28116
+2025-11-24 19:44:42,783 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from C:\Users\podol\.config\wandb\settings
+2025-11-24 19:44:42,783 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from C:\fiit\ZNEUS\ZNEUS2\wandb\settings
+2025-11-24 19:44:42,784 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-11-24 19:44:42,785 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-11-24 19:44:42,786 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-11-24 19:44:42,787 INFO    MainThread:28116 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-11-24 19:44:42,788 INFO    MainThread:28116 [wandb_init.py:_log_setup():533] Logging user logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_194442-3wskfzf0\logs\debug.log
+2025-11-24 19:44:42,789 INFO    MainThread:28116 [wandb_init.py:_log_setup():534] Logging internal logs to C:\fiit\ZNEUS\ZNEUS2\wandb\run-20251124_194442-3wskfzf0\logs\debug-internal.log
+2025-11-24 19:44:42,791 INFO    MainThread:28116 [wandb_init.py:init():619] calling init triggers
+2025-11-24 19:44:42,791 INFO    MainThread:28116 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'img_size': 224, 'optimizer': 'adam', 'lr': 0.0001, 'architecture': 'animal_model'}
+2025-11-24 19:44:42,792 INFO    MainThread:28116 [wandb_init.py:init():669] starting backend
+2025-11-24 19:44:42,792 INFO    MainThread:28116 [wandb_init.py:init():673] sending inform_init request
+2025-11-24 19:44:42,816 INFO    MainThread:28116 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-11-24 19:44:42,822 INFO    MainThread:28116 [wandb_init.py:init():686] backend started and connected
+2025-11-24 19:44:42,880 INFO    MainThread:28116 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2025-11-24 19:44:42,894 INFO    MainThread:28116 [wandb_init.py:init():781] updated telemetry
+2025-11-24 19:44:43,070 INFO    MainThread:28116 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2025-11-24 19:46:13,743 ERROR   MainThread:28116 [wandb_init.py:init():841] encountered error: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-11-24 19:46:13,744 ERROR   MainThread:28116 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\podol\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\podol\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 847, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-11-24 19:46:22,127 WARNING MsgRouterThr:28116 [router.py:message_loop():75] message_loop has been closed
+2025-11-24 19:46:22,127 WARNING MsgRouterThr:28116 [router.py:message_loop():75] message_loop has been closed
+2025-11-24 19:46:22,128 WARNING MsgRouterThr:28116 [router.py:message_loop():75] message_loop has been closed
+2025-11-24 19:46:22,129 WARNING MsgRouterThr:28116 [router.py:message_loop():75] message_loop has been closed

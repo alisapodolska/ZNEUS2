@@ -1,0 +1,160 @@
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\podol\AppData\Local\Programs\Python\Python312\Lib\site-packages\~andb'.
+Found existing installation: wandb 0.18.7
+You can safely remove it manually.
+Uninstalling wandb-0.18.7:
+  Successfully uninstalled wandb-0.18.7
+Collecting wandb==0.15.10
+  error: subprocess-exited-with-error
+  Downloading wandb-0.15.10-py3-none-any.whl.metadata (9.6 kB)
+
+Requirement already satisfied: Click!=8.0.0,>=7.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (8.1.7)
+  python setup.py egg_info did not run successfully.
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (3.1.43)
+  exit code: 1
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (2.32.3)
+
+Requirement already satisfied: psutil>=5.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (6.0.0)
+  [6 lines of output]
+  Traceback (most recent call last):
+Requirement already satisfied: sentry-sdk>=1.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (2.19.0)
+    File "<string>", line 2, in <module>
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (0.4.0)
+    File "<pip-setuptools-caller>", line 34, in <module>
+Requirement already satisfied: PyYAML in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (5.1)
+    File "C:\Users\podol\AppData\Local\Temp\pip-install-0pmvluor\pathtools_39251b6be799426889463f6deebe19b2\setup.py", line 25, in <module>
+Collecting pathtools (from wandb==0.15.10)
+  Downloading pathtools-0.1.2.tar.gz (11 kB)
+      import imp
+  Preparing metadata (setup.py): started
+  ModuleNotFoundError: No module named 'imp'
+  Preparing metadata (setup.py): finished with status 'error'
+  [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Requirement already satisfied: pip in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (25.0.1)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.3
+Collecting pip
+  Using cached pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Using cached pip-25.3-py3-none-any.whl (1.8 MB)
+ERROR: To modify pip, please run the following command:
+C:\Users\podol\AppData\Local\Programs\Python\Python312\python.exe -m pip install --upgrade pip
+Collecting wandb==0.15.10
+  error: subprocess-exited-with-error
+  Using cached wandb-0.15.10-py3-none-any.whl.metadata (9.6 kB)
+
+Requirement already satisfied: Click!=8.0.0,>=7.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (8.1.7)
+  python setup.py egg_info did not run successfully.
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (3.1.43)
+  exit code: 1
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (2.32.3)
+
+Requirement already satisfied: psutil>=5.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (6.0.0)
+Requirement already satisfied: sentry-sdk>=1.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (2.19.0)
+  [6 lines of output]
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (0.4.0)
+  Traceback (most recent call last):
+Requirement already satisfied: PyYAML in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb==0.15.10) (5.1)
+    File "<string>", line 2, in <module>
+Collecting pathtools (from wandb==0.15.10)
+    File "<pip-setuptools-caller>", line 34, in <module>
+  Using cached pathtools-0.1.2.tar.gz (11 kB)
+    File "C:\Users\podol\AppData\Local\Temp\pip-install-htm850yc\pathtools_6eb0486ce77b46c8a09907916047ceef\setup.py", line 25, in <module>
+  Preparing metadata (setup.py): started
+      import imp
+  Preparing metadata (setup.py): finished with status 'error'
+  ModuleNotFoundError: No module named 'imp'
+  [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Collecting wandb
+
+[notice] A new release of pip is available: 25.0.1 -> 25.3
+  Downloading wandb-0.23.0-py3-none-win_amd64.whl.metadata (12 kB)
+Requirement already satisfied: click>=8.0.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (8.1.7)
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: packaging in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (24.1)
+Requirement already satisfied: platformdirs in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (4.2.2)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<7,>=3.19.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (5.28.3)
+Collecting pydantic<3 (from wandb)
+  Using cached pydantic-2.12.4-py3-none-any.whl.metadata (89 kB)
+Requirement already satisfied: pyyaml in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (5.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (2.19.0)
+Requirement already satisfied: typing-extensions<5,>=4.8 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from wandb) (4.12.2)
+Requirement already satisfied: colorama in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from click>=8.0.1->wandb) (0.4.6)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Collecting annotated-types>=0.6.0 (from pydantic<3->wandb)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.41.5 (from pydantic<3->wandb)
+  Using cached pydantic_core-2.41.5-cp312-cp312-win_amd64.whl.metadata (7.4 kB)
+Collecting typing-extensions<5,>=4.8 (from wandb)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic<3->wandb)
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.0.0->wandb) (2024.6.2)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\podol\appdata\local\programs\python\python312\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+Downloading wandb-0.23.0-py3-none-win_amd64.whl (19.4 MB)
+   ---------------------------------------- 0.0/19.4 MB ? eta -:--:--
+   ---------------------------------------- 0.0/19.4 MB ? eta -:--:--
+   - -------------------------------------- 0.8/19.4 MB 4.2 MB/s eta 0:00:05
+   ---- ----------------------------------- 2.1/19.4 MB 5.3 MB/s eta 0:00:04
+   ----- ---------------------------------- 2.9/19.4 MB 4.7 MB/s eta 0:00:04
+   -------- ------------------------------- 3.9/19.4 MB 4.9 MB/s eta 0:00:04
+   ---------- ----------------------------- 5.0/19.4 MB 4.8 MB/s eta 0:00:04
+   ------------ --------------------------- 6.0/19.4 MB 4.8 MB/s eta 0:00:03
+   -------------- ------------------------- 6.8/19.4 MB 4.7 MB/s eta 0:00:03
+   ---------------- ----------------------- 7.9/19.4 MB 4.8 MB/s eta 0:00:03
+   ----------------- ---------------------- 8.7/19.4 MB 4.6 MB/s eta 0:00:03
+   ------------------- -------------------- 9.4/19.4 MB 4.6 MB/s eta 0:00:03
+   --------------------- ------------------ 10.5/19.4 MB 4.6 MB/s eta 0:00:02
+   ---------------------- ----------------- 11.0/19.4 MB 4.3 MB/s eta 0:00:02
+   ----------------------- ---------------- 11.5/19.4 MB 4.2 MB/s eta 0:00:02
+   ------------------------- -------------- 12.6/19.4 MB 4.3 MB/s eta 0:00:02
+   ---------------------------- ----------- 13.6/19.4 MB 4.3 MB/s eta 0:00:02
+   ----------------------------- ---------- 14.2/19.4 MB 4.2 MB/s eta 0:00:02
+   ------------------------------ --------- 14.7/19.4 MB 4.1 MB/s eta 0:00:02
+   ------------------------------- -------- 15.5/19.4 MB 4.1 MB/s eta 0:00:01
+   --------------------------------- ------ 16.3/19.4 MB 4.1 MB/s eta 0:00:01
+   ----------------------------------- ---- 17.3/19.4 MB 4.1 MB/s eta 0:00:01
+   ------------------------------------- -- 18.1/19.4 MB 4.1 MB/s eta 0:00:01
+   ---------------------------------------  19.1/19.4 MB 4.1 MB/s eta 0:00:01
+   ---------------------------------------- 19.4/19.4 MB 4.0 MB/s eta 0:00:00
+Using cached pydantic-2.12.4-py3-none-any.whl (463 kB)
+Using cached pydantic_core-2.41.5-cp312-cp312-win_amd64.whl (2.0 MB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Installing collected packages: typing-extensions, annotated-types, typing-inspection, pydantic-core, pydantic, wandb
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.12.2
+    Uninstalling typing_extensions-4.12.2:
+      Successfully uninstalled typing_extensions-4.12.2
+Successfully installed annotated-types-0.7.0 pydantic-2.12.4 pydantic-core-2.41.5 typing-extensions-4.15.0 typing-inspection-0.4.2 wandb-0.23.0

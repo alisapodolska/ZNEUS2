@@ -1,0 +1,17 @@
+{"time":"2025-11-24T20:09:56.3476795+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T20:09:56.3482758+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_200949-nwi4lbol\\logs\\debug-core.log"}
+{"time":"2025-11-24T20:09:56.4966705+01:00","level":"INFO","msg":"created new stream","id":"nwi4lbol"}
+{"time":"2025-11-24T20:09:56.4966705+01:00","level":"INFO","msg":"stream: started","id":"nwi4lbol"}
+{"time":"2025-11-24T20:09:56.4966705+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:09:56.49734+01:00","level":"INFO","msg":"handler: started","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:09:56.49734+01:00","level":"INFO","msg":"sender: started","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:09:58.2198216+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-24T20:12:17.568065+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-24T20:12:17.5711585+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-24T20:12:18.5801942+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4038609},{"desc":"uploading config.yaml","runtime_seconds":0.1480699,"progress":"645B/645B"},{"desc":"uploading output.log","runtime_seconds":0.1480699,"progress":"45B/45B"}],"total_operations":3}}
+{"time":"2025-11-24T20:12:21.6587233+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-24T20:12:23.0877301+01:00","level":"INFO","msg":"stream: closing","id":"nwi4lbol"}
+{"time":"2025-11-24T20:12:23.0877301+01:00","level":"INFO","msg":"handler: closed","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:12:23.0877301+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:12:23.0877301+01:00","level":"INFO","msg":"sender: closed","stream_id":"nwi4lbol"}
+{"time":"2025-11-24T20:12:23.0883152+01:00","level":"INFO","msg":"stream: closed","id":"nwi4lbol"}

@@ -1,0 +1,19 @@
+{"time":"2025-11-24T20:05:56.0852846+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-24T20:05:56.0858644+01:00","level":"INFO","msg":"created symlink","path":"C:\\fiit\\ZNEUS\\ZNEUS2\\wandb\\run-20251124_200551-onnepx85\\logs\\debug-core.log"}
+{"time":"2025-11-24T20:05:56.2380869+01:00","level":"INFO","msg":"created new stream","id":"onnepx85"}
+{"time":"2025-11-24T20:05:56.2386941+01:00","level":"INFO","msg":"stream: started","id":"onnepx85"}
+{"time":"2025-11-24T20:05:56.2386941+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:05:56.2386941+01:00","level":"INFO","msg":"handler: started","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:05:56.2386941+01:00","level":"INFO","msg":"sender: started","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:05:58.4814813+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-24T20:09:46.2269401+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-11-24T20:09:49.8769975+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-11-24T20:09:49.9467035+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-24T20:09:49.9483356+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-24T20:09:50.9532449+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.5994791},{"desc":"uploading config.yaml","runtime_seconds":0.3698859,"progress":"825B/825B"},{"desc":"uploading output.log","runtime_seconds":0.3698859}],"total_operations":3}}
+{"time":"2025-11-24T20:09:54.0266098+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-24T20:09:56.3094487+01:00","level":"INFO","msg":"stream: closing","id":"onnepx85"}
+{"time":"2025-11-24T20:09:56.3094487+01:00","level":"INFO","msg":"handler: closed","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:09:56.3094487+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:09:56.309983+01:00","level":"INFO","msg":"sender: closed","stream_id":"onnepx85"}
+{"time":"2025-11-24T20:09:56.3103526+01:00","level":"INFO","msg":"stream: closed","id":"onnepx85"}
