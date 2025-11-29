@@ -1,0 +1,18 @@
+2025-11-28 18:58:52,883 INFO    MainThread:866628 [wandb_init.py:setup_run_log_directory():706] Logging user logs to /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_185852-cb2x0izt/logs/debug.log
+2025-11-28 18:58:52,883 INFO    MainThread:866628 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_185852-cb2x0izt/logs/debug-internal.log
+2025-11-28 18:58:52,883 INFO    MainThread:866628 [wandb_init.py:init():833] calling init triggers
+2025-11-28 18:58:52,883 INFO    MainThread:866628 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'lr': 0.0001, 'batch_size': 32, 'optimizer': 'Adam', 'model': 'LeNet', '_wandb': {}}
+2025-11-28 18:58:54,303 INFO    MainThread:866628 [wandb_init.py:init():881] starting backend
+2025-11-28 18:58:54,303 INFO    MainThread:866628 [wandb_init.py:init():884] sending inform_init request
+2025-11-28 18:58:54,304 INFO    MainThread:866628 [wandb_init.py:init():892] backend started and connected
+2025-11-28 18:58:54,310 INFO    MainThread:866628 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2025-11-28 18:58:54,311 INFO    MainThread:866628 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-11-28 18:58:54,311 INFO    MainThread:866628 [wandb_init.py:init():962] updated telemetry
+2025-11-28 18:58:54,320 INFO    MainThread:866628 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2025-11-28 18:58:54,967 INFO    MainThread:866628 [wandb_init.py:init():1033] starting run threads in backend
+2025-11-28 18:58:55,060 INFO    MainThread:866628 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-28 18:58:55,060 INFO    MainThread:866628 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-28 18:58:55,060 INFO    MainThread:866628 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-28 18:58:55,060 INFO    MainThread:866628 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-28 18:58:55,061 INFO    MainThread:866628 [wandb_init.py:init():1073] run started, returning control to user process

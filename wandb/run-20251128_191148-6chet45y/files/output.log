@@ -1,0 +1,26 @@
+Folder'cane' not found.
+Folder'cavallo' not found.
+Folder'elefante' not found.
+Folder'farfalla' not found.
+Folder'gallina' not found.
+Folder'gatto' not found.
+Folder'mucca' not found.
+Folder'pecora' not found.
+Folder'ragno' not found.
+Folder'scoiattolo' not found.
+Classes: ['cat', 'squirrel', 'cow', 'spider', 'sheep', 'elephant', 'horse', 'dog', 'butterfly', 'chicken']
+cat: 1668 images
+squirrel: 1862 images
+cow: 1866 images
+spider: 4821 images
+sheep: 1820 images
+elephant: 1446 images
+horse: 2623 images
+dog: 4863 images
+butterfly: 2112 images
+chicken: 3098 images
+Avarage size: [329.245  253.1775]
+Min: [60 57]
+Max: [4928 3264]
+Channels: {'CMYK', 'RGBA', 'RGB'}
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.5528543].

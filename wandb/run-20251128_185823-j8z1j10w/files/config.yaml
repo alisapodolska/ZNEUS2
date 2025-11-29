@@ -1,0 +1,68 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            qx2j9jhht4ltoucsfgkhtu3alhw1sin9:
+                codePath: projects/ZNEUS2/ZNEUS2/animal_classification.ipynb
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "2014574526464"
+                        used: "27144523776"
+                email: xpodolskaa@stuba.sk
+                executable: /home/podolska/myenv/bin/python
+                git:
+                    commit: c0ced72557b93e48634ecc592c79b29a373c388c
+                    remote: https://github.com/alisapodolska/ZNEUS2.git
+                gpu: NVIDIA RTX A4000
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6144
+                      memoryTotal: "17171480576"
+                      name: NVIDIA RTX A4000
+                      uuid: GPU-692ec1b7-23ed-43fe-8b57-e7bffb32d7ed
+                host: glyra
+                memory:
+                    total: "67112296448"
+                os: Linux-6.8.0-87-generic-x86_64-with-glibc2.35
+                program: projects/ZNEUS2/ZNEUS2/animal_classification.ipynb
+                python: CPython 3.10.12
+                root: /home/podolska/projects/ZNEUS2/ZNEUS2
+                startedAt: "2025-11-28T17:58:23.438474Z"
+                writerId: qx2j9jhht4ltoucsfgkhtu3alhw1sin9
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.22.3
+            "8":
+                - 1
+            "12": 0.22.3
+            "13": linux-x86_64
+batch_size:
+    value: 32
+epochs:
+    value: 15
+lr:
+    value: 0.0001
+model:
+    value: LeNet
+optimizer:
+    value: Adam

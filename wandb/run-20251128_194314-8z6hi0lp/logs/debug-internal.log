@@ -1,0 +1,739 @@
+2025-11-28 19:43:24,457 INFO    StreamThr :873852 [internal.py:wandb_internal():86] W&B internal server running at pid: 873852, started at: 2025-11-28 19:43:24.456348
+2025-11-28 19:43:24,461 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status
+2025-11-28 19:43:24,463 INFO    WriterThread:873852 [datastore.py:open_for_write():87] open: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/run-8z6hi0lp.wandb
+2025-11-28 19:43:24,467 DEBUG   SenderThread:873852 [sender.py:send():382] send: header
+2025-11-28 19:43:24,467 DEBUG   SenderThread:873852 [sender.py:send():382] send: run
+2025-11-28 19:43:25,003 INFO    SenderThread:873852 [dir_watcher.py:__init__():211] watching files in: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files
+2025-11-28 19:43:25,004 INFO    SenderThread:873852 [sender.py:_start_run_threads():1136] run started: 8z6hi0lp with start time 1764355403.6582
+2025-11-28 19:43:25,025 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: check_version
+2025-11-28 19:43:25,026 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: check_version
+2025-11-28 19:43:25,259 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: run_start
+2025-11-28 19:43:25,259 DEBUG   HandlerThread:873852 [system_info.py:__init__():27] System info init
+2025-11-28 19:43:25,259 DEBUG   HandlerThread:873852 [system_info.py:__init__():42] System info init done
+2025-11-28 19:43:25,259 INFO    HandlerThread:873852 [system_monitor.py:start():194] Starting system monitor
+2025-11-28 19:43:25,260 INFO    SystemMonitor:873852 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-11-28 19:43:25,260 INFO    HandlerThread:873852 [system_monitor.py:probe():214] Collecting system info
+2025-11-28 19:43:25,261 INFO    SystemMonitor:873852 [interfaces.py:start():190] Started cpu monitoring
+2025-11-28 19:43:25,262 INFO    SystemMonitor:873852 [interfaces.py:start():190] Started disk monitoring
+2025-11-28 19:43:25,263 INFO    SystemMonitor:873852 [interfaces.py:start():190] Started gpu monitoring
+2025-11-28 19:43:25,264 INFO    SystemMonitor:873852 [interfaces.py:start():190] Started memory monitoring
+2025-11-28 19:43:25,265 INFO    SystemMonitor:873852 [interfaces.py:start():190] Started network monitoring
+2025-11-28 19:43:25,284 DEBUG   HandlerThread:873852 [system_info.py:probe():151] Probing system
+2025-11-28 19:43:25,285 DEBUG   HandlerThread:873852 [system_info.py:_probe_git():136] Probing git
+2025-11-28 19:43:25,295 DEBUG   HandlerThread:873852 [system_info.py:_probe_git():144] Probing git done
+2025-11-28 19:43:25,295 DEBUG   HandlerThread:873852 [system_info.py:probe():199] Probing system done
+2025-11-28 19:43:25,295 DEBUG   HandlerThread:873852 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-87-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2025-11-28T18:43:25.284649', 'startedAt': '2025-11-28T18:43:14.712755', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'projects/ZNEUS2/ZNEUS2/animal_classification.ipynb', 'codePathLocal': None, 'root': '/home/podolska/projects/ZNEUS2/ZNEUS2', 'git': {'remote': 'https://github.com/alisapodolska/ZNEUS2.git', 'commit': 'c0ced72557b93e48634ecc592c79b29a373c388c'}, 'email': 'podolskyna@gamil.com', 'host': 'glyra', 'username': 'podolska', 'executable': '/home/podolska/myenv/bin/python', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 899.66428125, 'min': 800.0, 'max': 4937.5}, 'cpu_freq_per_core': [{'current': 939.273, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1100.0, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5800.0}, {'current': 1060.042, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 1399.045, 'min': 800.0, 'max': 4300.0}, {'current': 801.287, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 799.856, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 801.641, 'min': 800.0, 'max': 4300.0}, {'current': 1318.267, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.546, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 805.555, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 1876.218734741211, 'used': 25.280399322509766}}, 'gpu': 'NVIDIA RTX A4000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}], 'memory': {'total': 62.503196716308594}}
+2025-11-28 19:43:25,295 INFO    HandlerThread:873852 [system_monitor.py:probe():224] Finished collecting system info
+2025-11-28 19:43:25,295 INFO    HandlerThread:873852 [system_monitor.py:probe():227] Publishing system info
+2025-11-28 19:43:25,296 INFO    HandlerThread:873852 [system_monitor.py:probe():229] Finished publishing system info
+2025-11-28 19:43:25,297 DEBUG   SenderThread:873852 [sender.py:send():382] send: files
+2025-11-28 19:43:25,297 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-11-28 19:43:25,321 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: python_packages
+2025-11-28 19:43:25,321 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: python_packages
+2025-11-28 19:43:25,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:43:25,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:43:25,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:43:25,622 DEBUG   SenderThread:873852 [sender.py:send():382] send: telemetry
+2025-11-28 19:43:25,963 INFO    wandb-upload_0:873852 [upload_job.py:push():131] Uploaded file /tmp/tmpt8znj8klwandb/0lakgu1x-wandb-metadata.json
+2025-11-28 19:43:26,004 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/requirements.txt
+2025-11-28 19:43:26,004 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-metadata.json
+2025-11-28 19:43:29,623 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:34,624 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:39,625 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:40,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:43:40,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:43:40,362 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:43:45,507 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:50,508 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:55,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:43:55,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:43:55,362 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:43:55,593 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:43:56,012 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/config.yaml
+2025-11-28 19:44:00,784 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:05,784 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:10,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:44:10,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:44:10,362 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:44:11,562 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:16,562 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:21,563 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:25,266 DEBUG   SystemMonitor:873852 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-11-28 19:44:25,267 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:44:25,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:44:25,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:44:25,362 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:44:26,614 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:31,615 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:36,616 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:40,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:44:40,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:44:40,363 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:44:42,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:47,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:52,580 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:44:55,268 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:44:55,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:44:55,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:44:55,363 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:44:58,544 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:00,027 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:45:02,028 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:45:04,297 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:09,298 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:10,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:45:10,323 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:45:10,323 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:45:13,097 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:45:13,098 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:45:13,098 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:45:13,099 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:45:14,031 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:45:14,031 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:45:15,099 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:20,100 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:25,101 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:25,269 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:45:25,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:45:25,322 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:45:25,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:45:30,556 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:35,556 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:40,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:45:40,323 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:45:40,363 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:45:40,561 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:45,561 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:50,562 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:45:55,270 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:45:55,322 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:45:55,323 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:45:55,363 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:45:56,526 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:01,526 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:06,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:10,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:46:10,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:46:10,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:46:12,518 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:17,518 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:22,519 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:25,271 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:46:25,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:46:25,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:46:25,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:46:27,523 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:32,524 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:37,524 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:40,323 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:46:40,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:46:40,364 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:46:42,567 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:47,669 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:48,055 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:46:52,669 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:55,271 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:46:55,323 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:46:55,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:46:55,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:46:58,613 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:46:59,675 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:46:59,676 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:46:59,676 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:46:59,677 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:47:00,058 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:47:02,058 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:47:03,678 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:08,679 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:10,323 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:47:10,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:47:10,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:47:14,605 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:19,606 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:24,607 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:25,272 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:47:25,323 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:47:25,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:47:25,364 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:47:30,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:35,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:40,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:47:40,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:47:40,364 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:47:40,542 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:45,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:50,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:47:55,273 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:47:55,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:47:55,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:47:55,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:47:55,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:00,580 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:05,580 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:10,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:48:10,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:48:10,364 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:48:11,501 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:16,501 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:21,502 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:25,274 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:48:25,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:48:25,324 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:48:25,364 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:48:26,564 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:31,564 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:36,084 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:48:36,745 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:40,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:48:40,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:48:40,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:48:42,571 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:47,568 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:48:47,569 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:48:47,569 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:48:47,569 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:48:48,087 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:48:48,570 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:50,088 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:48:53,570 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:48:55,275 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:48:55,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:48:55,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:48:55,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:48:59,535 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:04,535 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:09,536 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:10,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:49:10,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:49:10,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:49:14,559 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:19,560 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:24,560 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:25,276 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:49:25,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:49:25,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:49:25,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:49:29,593 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:34,594 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:39,594 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:40,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:49:40,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:49:40,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:49:45,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:50,551 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:49:55,277 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:49:55,324 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:49:55,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:49:55,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:49:55,587 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:00,588 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:05,589 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:10,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:50:10,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:50:10,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:50:11,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:16,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:20,113 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:50:22,058 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:25,278 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:50:25,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:50:25,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:50:25,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:50:27,595 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:32,596 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:32,782 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:50:32,783 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:50:32,783 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:50:32,783 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:50:33,116 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:50:34,117 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:50:37,784 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:40,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:50:40,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:50:40,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:50:43,538 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:48,539 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:53,540 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:50:55,278 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:50:55,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:50:55,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:50:55,365 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:50:58,542 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:03,542 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:08,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:10,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:51:10,325 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:51:10,366 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:51:13,549 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:18,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:23,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:25,279 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:51:25,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:51:25,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:51:25,366 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:51:28,552 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:33,553 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:38,554 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:40,325 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:51:40,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:51:40,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:51:43,636 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:48,636 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:53,637 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:51:55,280 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:51:55,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:51:55,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:51:55,366 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:51:59,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:04,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:08,143 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:52:09,815 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:10,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:52:10,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:52:10,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:52:15,562 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:19,506 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:52:19,507 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:52:19,507 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:52:19,507 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:52:20,146 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:52:21,508 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:22,147 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:52:25,281 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:52:25,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:52:25,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:52:25,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:52:26,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:31,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:36,580 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:40,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:52:40,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:52:40,366 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:52:42,553 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:47,554 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:52,554 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:52:55,282 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:52:55,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:52:55,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:52:55,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:52:58,518 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:03,519 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:08,519 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:10,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:53:10,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:53:10,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:53:13,528 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:18,528 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:23,529 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:25,283 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:53:25,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:53:25,326 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:53:25,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:53:28,603 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:33,603 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:38,604 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:40,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:53:40,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:53:40,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:53:43,663 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:48,664 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:53,889 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:53:54,175 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:53:55,284 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:53:55,326 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:53:55,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:53:55,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:53:59,500 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:04,501 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:05,685 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:54:05,685 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:54:05,686 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:54:05,686 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:54:06,178 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:54:08,178 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:54:09,687 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:10,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:54:10,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:54:10,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:54:15,572 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:20,572 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:25,285 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:54:25,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:54:25,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:54:25,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:54:26,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:31,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:36,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:40,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:54:40,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:54:40,367 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:54:41,585 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:46,586 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:51,586 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:54:55,286 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:54:55,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:54:55,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:54:55,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:54:57,555 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:02,555 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:07,556 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:10,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:55:10,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:55:10,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:55:12,597 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:17,598 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:22,599 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:25,287 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:55:25,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:55:25,327 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:55:25,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:55:28,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:33,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:39,289 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:40,203 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:55:40,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:55:40,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:55:40,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:55:44,568 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:49,569 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:52,121 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:55:52,122 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:55:52,122 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:55:52,122 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:55:52,206 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:55:54,207 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:55:55,123 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:55:55,288 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:55:55,327 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:55:55,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:55:55,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:56:00,571 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:05,572 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:10,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:56:10,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:56:10,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:56:11,512 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:16,512 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:21,513 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:25,288 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:56:25,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:56:25,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:56:25,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:56:26,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:31,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:36,551 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:40,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:56:40,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:56:40,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:56:41,591 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:46,592 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:51,592 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:56:55,289 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:56:55,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:56:55,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:56:55,368 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:56:57,584 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:02,585 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:07,585 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:10,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:57:10,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:57:10,369 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:57:13,539 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:18,539 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:23,552 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:24,231 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:57:25,290 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:57:25,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:57:25,328 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:57:25,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:57:26,232 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:57:28,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:33,579 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:37,477 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:57:37,478 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:57:37,478 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:57:37,478 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:57:38,235 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:57:38,236 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:57:39,479 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:40,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:57:40,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:57:40,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:57:44,537 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:49,538 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:54,539 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:57:55,291 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:57:55,328 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:57:55,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:57:55,369 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:57:59,546 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:04,547 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:09,547 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:10,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:58:10,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:58:10,369 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:58:15,510 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:20,511 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:25,292 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:58:25,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:58:25,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:58:25,369 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:58:25,520 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:30,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:35,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:40,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:58:40,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:58:40,369 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:58:40,550 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:45,551 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:50,551 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:58:55,293 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:58:55,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:58:55,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:58:55,370 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:58:55,589 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:00,589 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:05,590 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:10,260 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:59:10,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:59:10,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:59:10,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:59:10,597 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:15,598 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:20,598 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:23,027 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 19:59:23,028 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 19:59:23,028 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 19:59:23,028 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 19:59:23,263 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 19:59:24,264 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 19:59:25,294 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:59:25,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:59:25,329 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:59:25,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:59:25,611 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:30,611 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:35,612 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:40,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:59:40,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:59:40,370 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:59:41,604 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:46,605 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:51,605 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 19:59:55,295 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 19:59:55,329 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 19:59:55,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 19:59:55,370 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 19:59:57,599 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:02,600 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:07,601 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:10,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:00:10,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:00:10,370 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:00:13,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:18,543 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:23,544 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:25,302 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:00:25,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:00:25,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:00:25,372 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:00:28,572 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:33,573 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:38,573 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:40,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:00:40,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:00:40,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:00:43,591 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:48,591 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:53,592 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:00:55,296 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:00:55,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:00:55,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:00:55,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:00:56,287 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:00:59,544 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:04,545 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:09,247 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 20:01:09,247 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 20:01:09,248 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 20:01:09,248 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 20:01:09,290 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 20:01:10,248 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:10,290 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:01:10,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:01:10,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:01:10,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:01:15,545 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:20,546 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:25,297 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:01:25,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:01:25,330 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:01:25,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:01:25,607 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:30,608 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:35,608 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:40,330 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:01:40,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:01:40,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:01:41,517 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:46,517 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:51,518 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:01:55,299 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:01:55,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:01:55,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:01:55,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:01:56,582 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:01,583 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:06,583 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:10,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:02:10,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:02:10,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:02:12,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:17,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:22,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:25,299 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:02:25,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:02:25,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:02:25,371 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:02:27,592 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:32,593 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:37,593 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:40,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:02:40,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:02:40,372 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:02:43,010 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:45,312 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:02:48,011 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:53,012 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:02:55,300 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:02:55,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:02:55,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:02:55,332 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:02:55,866 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 20:02:55,867 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 20:02:55,867 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 20:02:55,867 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 20:02:56,315 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 20:02:57,316 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:02:58,868 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:03,869 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:08,869 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:10,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:03:10,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:03:10,332 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:03:14,604 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:19,605 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:24,606 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:25,301 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:03:25,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:03:25,331 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:03:25,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:03:30,551 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:35,552 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:40,331 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:03:40,332 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:03:40,372 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:03:40,625 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:45,625 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:50,626 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:03:55,302 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:03:55,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:03:55,333 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:03:55,373 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:03:56,574 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:01,575 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:06,575 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:10,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:04:10,333 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:04:10,373 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:04:12,530 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:17,531 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:22,531 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:25,302 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:04:25,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:04:25,333 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:04:25,373 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:04:27,863 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:29,342 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:04:32,904 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:37,905 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:40,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:04:40,333 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:04:40,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:04:41,729 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 20:04:41,729 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 20:04:41,730 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 20:04:41,730 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 20:04:42,345 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 20:04:43,345 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:04:43,731 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:48,731 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:53,732 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:04:55,303 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:04:55,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:04:55,333 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:04:55,335 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:04:59,521 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:04,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:09,522 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:10,333 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:05:10,334 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:05:10,374 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:05:14,619 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:19,619 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:24,620 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:25,304 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:05:25,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:05:25,334 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:05:25,374 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:05:30,558 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:35,559 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:40,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:05:40,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:05:40,335 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:05:40,573 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:45,574 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:50,575 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:05:55,305 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:05:55,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:05:55,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:05:55,335 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:05:55,597 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:00,598 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:05,598 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:10,335 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:06:10,335 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:06:10,336 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:06:10,618 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:15,372 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:06:15,631 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:20,631 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:25,306 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:06:25,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:06:25,335 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:06:25,335 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:06:26,558 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:27,436 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-28 20:06:27,437 DEBUG   SenderThread:873852 [sender.py:send():382] send: history
+2025-11-28 20:06:27,437 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: summary_record
+2025-11-28 20:06:27,437 INFO    SenderThread:873852 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-28 20:06:28,375 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/wandb-summary.json
+2025-11-28 20:06:29,375 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:06:32,438 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:37,439 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:40,334 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-28 20:06:40,335 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-28 20:06:40,335 DEBUG   SenderThread:873852 [sender.py:send_request():409] send_request: stop_status
+2025-11-28 20:06:42,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:47,527 DEBUG   HandlerThread:873852 [handler.py:handle_request():146] handle_request: status_report
+2025-11-28 20:06:51,579 INFO    memory    :873852 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2025-11-28 20:06:51,581 DEBUG   SystemMonitor:873852 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-11-28 20:06:51,581 DEBUG   SystemMonitor:873852 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-11-28 20:06:51,583 DEBUG   SenderThread:873852 [sender.py:send():382] send: stats
+2025-11-28 20:06:52,383 INFO    Thread-75 :873852 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251128_194314-8z6hi0lp/files/output.log
+2025-11-28 20:06:52,497 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited
+2025-11-28 20:06:52,498 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited
+2025-11-28 20:06:52,498 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited
+2025-11-28 20:06:52,498 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited
+2025-11-28 20:06:52,498 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited
+2025-11-28 20:06:52,498 INFO    MainThread:873852 [internal.py:handle_exit():76] Internal process exited

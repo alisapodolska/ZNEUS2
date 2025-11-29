@@ -1,0 +1,54 @@
+23.932426081271842
+68.97553434758447
+[1/15] Train Acc=0.3671  Val Acc=0.4887
+23.919217550661415
+67.65932088787667
+[2/15] Train Acc=0.5006  Val Acc=0.5583
+23.942367399809882
+69.12640656158328
+[3/15] Train Acc=0.5581  Val Acc=0.6142
+23.930108330445364
+66.57616211217828
+[4/15] Train Acc=0.5959  Val Acc=0.6304
+23.93763277726248
+68.08798003848642
+[5/15] Train Acc=0.6262  Val Acc=0.6729
+23.929435011930764
+67.45921733765863
+[6/15] Train Acc=0.6417  Val Acc=0.7069
+23.92573806690052
+67.67643982497975
+[7/15] Train Acc=0.6644  Val Acc=0.6915
+23.911904248176143
+66.5234551008325
+[8/15] Train Acc=0.6826  Val Acc=0.7292
+23.917130847927183
+66.7514181365259
+[9/15] Train Acc=0.6901  Val Acc=0.7536
+23.91996915405616
+67.33273468725383
+[10/15] Train Acc=0.7002  Val Acc=0.7410
+23.9191537280567
+67.84868829557672
+[11/15] Train Acc=0.7146  Val Acc=0.7623
+23.9202397367917
+67.13228187919594
+[12/15] Train Acc=0.7244  Val Acc=0.7529
+23.922216069418937
+66.99817976448685
+[13/15] Train Acc=0.7372  Val Acc=0.7935
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/podolska/myenv/lib/python3.10/site-packages/ipykernel/parentpoller.py", line 60, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'

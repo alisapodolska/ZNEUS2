@@ -1,0 +1,604 @@
+2025-11-29 17:59:03,672 INFO    StreamThr :896144 [internal.py:wandb_internal():86] W&B internal server running at pid: 896144, started at: 2025-11-29 17:59:03.672523
+2025-11-29 17:59:03,676 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status
+2025-11-29 17:59:03,680 INFO    WriterThread:896144 [datastore.py:open_for_write():87] open: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/run-cqc9u1ai.wandb
+2025-11-29 17:59:03,681 DEBUG   SenderThread:896144 [sender.py:send():382] send: header
+2025-11-29 17:59:03,698 DEBUG   SenderThread:896144 [sender.py:send():382] send: run
+2025-11-29 17:59:04,355 INFO    SenderThread:896144 [dir_watcher.py:__init__():211] watching files in: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files
+2025-11-29 17:59:04,355 INFO    SenderThread:896144 [sender.py:_start_run_threads():1136] run started: cqc9u1ai with start time 1764435543.672216
+2025-11-29 17:59:04,360 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: check_version
+2025-11-29 17:59:04,361 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: check_version
+2025-11-29 17:59:04,462 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: run_start
+2025-11-29 17:59:04,475 DEBUG   HandlerThread:896144 [system_info.py:__init__():27] System info init
+2025-11-29 17:59:04,475 DEBUG   HandlerThread:896144 [system_info.py:__init__():42] System info init done
+2025-11-29 17:59:04,475 INFO    HandlerThread:896144 [system_monitor.py:start():194] Starting system monitor
+2025-11-29 17:59:04,475 INFO    SystemMonitor:896144 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-11-29 17:59:04,475 INFO    HandlerThread:896144 [system_monitor.py:probe():214] Collecting system info
+2025-11-29 17:59:04,476 INFO    SystemMonitor:896144 [interfaces.py:start():190] Started cpu monitoring
+2025-11-29 17:59:04,476 INFO    SystemMonitor:896144 [interfaces.py:start():190] Started disk monitoring
+2025-11-29 17:59:04,477 INFO    SystemMonitor:896144 [interfaces.py:start():190] Started gpu monitoring
+2025-11-29 17:59:04,477 INFO    SystemMonitor:896144 [interfaces.py:start():190] Started memory monitoring
+2025-11-29 17:59:04,478 INFO    SystemMonitor:896144 [interfaces.py:start():190] Started network monitoring
+2025-11-29 17:59:04,488 DEBUG   HandlerThread:896144 [system_info.py:probe():151] Probing system
+2025-11-29 17:59:04,489 DEBUG   HandlerThread:896144 [system_info.py:_probe_git():136] Probing git
+2025-11-29 17:59:04,498 DEBUG   HandlerThread:896144 [system_info.py:_probe_git():144] Probing git done
+2025-11-29 17:59:04,498 DEBUG   HandlerThread:896144 [system_info.py:probe():199] Probing system done
+2025-11-29 17:59:04,498 DEBUG   HandlerThread:896144 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-87-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2025-11-29T16:59:04.488787', 'startedAt': '2025-11-29T16:59:03.665600', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'projects/ZNEUS2/ZNEUS2/animal_classification.ipynb', 'codePathLocal': None, 'root': '/home/podolska/projects/ZNEUS2/ZNEUS2', 'git': {'remote': 'https://github.com/alisapodolska/ZNEUS2.git', 'commit': 'c0ced72557b93e48634ecc592c79b29a373c388c'}, 'email': 'podolskyna@gamil.com', 'host': 'glyra', 'username': 'podolska', 'executable': '/home/podolska/myenv/bin/python', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1303.881625, 'min': 800.0, 'max': 4937.5}, 'cpu_freq_per_core': [{'current': 2113.418, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1843.445, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2158.182, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5800.0}, {'current': 800.0, 'min': 800.0, 'max': 5800.0}, {'current': 2200.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1575.295, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 795.454, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 801.011, 'min': 800.0, 'max': 4300.0}, {'current': 1987.029, 'min': 800.0, 'max': 4300.0}, {'current': 799.592, 'min': 800.0, 'max': 4300.0}, {'current': 796.71, 'min': 800.0, 'max': 4300.0}, {'current': 803.888, 'min': 800.0, 'max': 4300.0}, {'current': 797.187, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 1876.218734741211, 'used': 25.243663787841797}}, 'gpu': 'NVIDIA RTX A4000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}], 'memory': {'total': 62.503196716308594}}
+2025-11-29 17:59:04,499 INFO    HandlerThread:896144 [system_monitor.py:probe():224] Finished collecting system info
+2025-11-29 17:59:04,499 INFO    HandlerThread:896144 [system_monitor.py:probe():227] Publishing system info
+2025-11-29 17:59:04,500 INFO    HandlerThread:896144 [system_monitor.py:probe():229] Finished publishing system info
+2025-11-29 17:59:04,503 DEBUG   SenderThread:896144 [sender.py:send():382] send: files
+2025-11-29 17:59:04,503 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-11-29 17:59:04,520 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: python_packages
+2025-11-29 17:59:04,520 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: python_packages
+2025-11-29 17:59:04,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 17:59:04,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 17:59:04,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 17:59:04,816 DEBUG   SenderThread:896144 [sender.py:send():382] send: telemetry
+2025-11-29 17:59:05,215 INFO    wandb-upload_0:896144 [upload_job.py:push():131] Uploaded file /tmp/tmpas19c7xowandb/1eb36zev-wandb-metadata.json
+2025-11-29 17:59:05,356 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/requirements.txt
+2025-11-29 17:59:05,356 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-metadata.json
+2025-11-29 17:59:08,817 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:13,817 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:18,818 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:19,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 17:59:19,521 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 17:59:19,561 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 17:59:24,751 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:29,752 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:34,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 17:59:34,521 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 17:59:34,561 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 17:59:35,725 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:36,363 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/config.yaml
+2025-11-29 17:59:40,941 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:45,942 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:49,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 17:59:49,521 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 17:59:49,562 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 17:59:51,696 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 17:59:56,696 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:01,697 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:04,478 DEBUG   SystemMonitor:896144 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-11-29 18:00:04,479 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:00:04,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:00:04,521 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:00:04,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:00:06,783 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:11,783 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:16,784 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:19,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:00:19,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:00:19,562 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:00:22,747 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:27,748 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:29,376 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:00:31,377 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:00:33,075 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:34,480 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:00:34,521 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:00:34,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:00:34,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:00:38,795 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:43,796 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:44,584 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:00:44,585 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:00:44,585 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:00:44,586 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:00:45,380 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:00:45,380 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_created():271] file/dir created: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:00:49,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:00:49,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:00:49,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:00:49,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:54,798 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:00:59,799 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:04,481 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:01:04,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:01:04,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:01:04,562 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:01:05,774 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:10,774 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:15,775 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:19,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:01:19,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:01:19,562 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:01:21,748 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:26,749 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:31,750 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:34,482 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:01:34,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:01:34,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:01:34,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:01:36,773 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:41,773 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:46,774 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:49,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:01:49,522 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:01:49,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:01:52,732 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:01:57,732 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:02,733 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:04,483 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:02:04,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:02:04,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:02:04,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:02:07,793 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:11,403 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:02:12,947 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:17,947 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:19,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:02:19,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:02:19,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:02:22,724 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:02:22,725 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:02:22,725 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:02:22,725 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:02:23,406 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:02:23,406 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:02:23,725 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:28,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:33,727 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:34,484 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:02:34,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:02:34,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:02:34,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:02:38,774 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:43,775 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:48,776 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:49,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:02:49,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:02:49,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:02:53,800 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:02:58,800 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:03,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:04,485 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:03:04,522 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:03:04,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:03:04,563 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:03:09,748 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:14,748 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:19,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:03:19,523 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:03:19,564 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:03:19,769 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:24,769 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:29,770 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:34,486 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:03:34,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:03:34,524 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:03:34,564 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:03:34,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:39,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:44,802 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:49,429 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:03:49,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:03:49,524 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:03:49,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:03:50,714 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:03:55,714 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:00,715 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:00,771 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:04:00,772 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:04:00,772 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:04:00,773 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:04:01,432 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:04:01,432 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:04:04,487 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:04:04,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:04:04,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:04:04,524 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:04:05,767 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:10,768 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:15,768 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:19,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:04:19,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:04:19,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:04:21,742 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:26,743 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:31,744 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:34,488 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:04:34,523 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:04:34,524 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:04:34,564 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:04:36,771 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:41,772 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:46,773 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:49,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:04:49,524 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:04:49,564 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:04:51,784 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:04:56,784 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:01,785 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:04,489 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:05:04,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:05:04,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:05:04,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:05:07,784 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:12,784 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:17,785 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:19,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:05:19,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:05:19,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:05:22,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:27,457 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:05:28,067 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:33,067 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:34,489 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:05:34,524 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:05:34,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:05:34,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:05:38,782 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:38,846 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:05:38,847 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:05:38,847 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:05:38,847 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:05:39,460 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:05:39,460 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:05:43,848 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:48,849 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:49,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:05:49,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:05:49,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:05:54,055 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:05:59,055 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:04,056 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:04,490 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:06:04,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:06:04,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:06:04,566 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:06:09,712 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:14,713 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:19,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:06:19,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:06:19,565 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:06:20,701 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:25,702 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:30,702 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:34,491 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:06:34,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:06:34,525 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:06:34,565 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:06:35,776 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:40,777 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:45,777 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:06:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:06:49,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:06:51,764 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:06:56,765 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:01,766 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:04,492 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:07:04,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:07:04,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:07:04,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:07:05,485 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:07:07,708 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:12,708 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:16,833 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:07:16,834 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:07:16,834 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:07:16,834 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:07:17,488 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:07:17,488 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:07:17,835 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:19,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:07:19,525 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:07:19,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:07:23,804 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:28,804 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:33,805 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:34,500 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:07:34,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:07:34,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:07:34,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:07:39,788 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:44,789 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:07:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:07:49,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:07:50,722 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:07:55,722 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:00,723 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:04,494 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:08:04,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:08:04,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:08:04,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:08:05,775 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:10,776 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:15,776 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:19,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:08:19,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:08:19,567 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:08:21,714 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:26,715 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:31,716 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:34,496 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:08:34,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:08:34,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:08:34,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:08:37,713 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:42,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:44,513 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:08:47,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:08:49,526 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:08:49,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:08:52,801 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:08:54,582 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:08:54,586 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:08:54,587 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:08:54,587 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:08:55,516 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:08:56,516 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:08:58,588 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:03,588 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:04,496 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:09:04,526 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:09:04,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:09:04,567 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:09:08,741 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:13,741 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:18,744 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:19,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:09:19,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:09:19,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:09:23,782 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:28,782 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:33,783 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:34,497 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:09:34,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:09:34,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:09:34,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:09:39,753 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:44,754 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:49,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:09:49,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:09:49,567 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:09:50,737 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:09:55,737 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:00,738 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:04,498 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:10:04,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:10:04,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:10:04,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:10:06,734 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:11,735 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:16,736 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:19,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:10:19,527 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:10:19,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:10:21,757 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:22,542 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:10:26,758 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:31,759 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:32,915 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:10:32,915 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:10:32,915 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:10:32,916 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:10:33,545 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:10:34,499 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:10:34,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:10:34,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:10:34,546 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:10:34,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:10:37,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:42,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:47,727 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:49,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:10:49,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:10:49,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:10:52,741 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:10:57,742 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:02,743 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:04,500 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:11:04,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:11:04,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:11:04,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:11:08,735 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:13,735 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:18,736 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:19,527 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:11:19,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:11:19,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:11:24,732 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:29,733 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:34,500 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:11:34,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:11:34,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:11:34,568 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:11:34,814 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:39,814 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:44,815 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:49,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:11:49,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:11:49,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:11:50,767 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:55,768 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:11:58,569 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:12:01,736 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:04,501 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:12:04,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:12:04,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:12:04,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:12:06,771 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:10,197 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:12:10,198 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:12:10,198 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:12:10,198 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:12:10,572 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:12:12,199 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:12,572 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:12:17,200 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:19,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:12:19,528 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:12:19,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:12:22,797 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:27,798 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:32,798 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:34,502 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:12:34,528 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:12:34,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:12:34,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:12:38,756 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:43,757 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:48,757 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:49,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:12:49,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:12:49,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:12:54,747 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:12:59,747 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:04,503 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:13:04,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:13:04,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:13:04,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:13:04,802 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:09,803 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:14,804 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:19,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:13:19,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:13:19,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:13:20,755 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:25,756 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:30,756 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:34,504 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:13:34,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:13:34,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:13:34,569 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:13:36,544 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:38,596 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:13:41,545 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:46,546 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:48,774 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:13:48,775 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:13:48,775 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:13:48,775 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:13:49,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:13:49,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:13:49,571 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:13:49,598 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:13:50,599 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:13:51,725 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:13:56,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:01,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:04,505 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:14:04,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:14:04,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:14:04,571 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:14:06,807 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:11,808 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:16,809 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:19,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:14:19,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:14:19,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:14:22,740 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:27,741 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:32,741 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:34,506 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:14:34,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:14:34,529 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:14:34,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:14:37,772 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:42,772 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:47,773 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:49,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:14:49,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:14:49,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:14:53,742 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:14:58,743 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:03,743 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:04,506 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:15:04,529 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:15:04,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:15:04,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:15:08,789 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:13,790 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:16,621 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:15:19,087 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:19,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:15:19,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:15:19,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:15:24,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:26,926 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:15:26,927 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:15:26,927 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:15:26,927 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:15:27,623 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:15:28,623 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:15:29,928 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:34,507 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:15:34,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:15:34,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:15:34,570 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:15:35,724 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:40,725 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:45,726 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:49,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:15:49,530 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:15:49,571 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:15:50,745 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:15:55,746 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:00,746 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:04,514 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:16:04,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:16:04,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:16:04,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:16:06,693 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:11,693 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:16,694 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:19,530 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:16:19,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:16:19,531 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:16:21,727 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:26,728 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:31,728 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:34,509 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:16:34,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:16:34,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:16:34,531 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:16:36,777 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:41,778 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:46,778 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:49,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:16:49,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:16:49,531 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:16:52,671 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:16:54,643 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:16:57,672 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:02,673 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:04,510 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:17:04,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:17:04,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:17:04,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:17:05,233 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: partial_history
+2025-11-29 18:17:05,234 DEBUG   SenderThread:896144 [sender.py:send():382] send: history
+2025-11-29 18:17:05,234 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: summary_record
+2025-11-29 18:17:05,234 INFO    SenderThread:896144 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-11-29 18:17:05,646 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/wandb-summary.json
+2025-11-29 18:17:06,646 INFO    Thread-12 :896144 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/podolska/projects/ZNEUS2/ZNEUS2/wandb/run-20251129_175903-cqc9u1ai/files/output.log
+2025-11-29 18:17:08,235 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:13,236 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:18,236 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:19,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:17:19,532 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:17:19,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:17:23,739 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:28,740 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:33,740 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:34,511 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:17:34,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:17:34,532 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:17:34,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:17:38,750 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:43,751 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:48,751 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:49,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:17:49,532 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:17:49,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:17:53,789 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:17:58,790 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:18:03,790 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
+2025-11-29 18:18:04,512 DEBUG   SenderThread:896144 [sender.py:send():382] send: stats
+2025-11-29 18:18:04,531 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: internal_messages
+2025-11-29 18:18:04,532 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: stop_status
+2025-11-29 18:18:04,532 DEBUG   SenderThread:896144 [sender.py:send_request():409] send_request: stop_status
+2025-11-29 18:18:08,793 DEBUG   HandlerThread:896144 [handler.py:handle_request():146] handle_request: status_report
