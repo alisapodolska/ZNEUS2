@@ -1,0 +1,31 @@
+{
+  "model": {
+    "name": "CustomCNN_v2",
+    "input_size": 224,
+    "num_classes": 10,
+    "blocks": [
+      {"in_channels": 3, "out_channels": 32, "kernel_size": 3, "padding": 1},
+      {"in_channels": 32, "out_channels": 64, "kernel_size": 3, "padding": 1},
+      {"in_channels": 64, "out_channels": 128, "kernel_size": 3, "padding": 1},
+      {"in_channels": 128, "out_channels": 256, "kernel_size": 3, "padding": 1},
+      {"in_channels": 256, "out_channels": 512, "kernel_size": 3, "padding": 1}
+    ],
+    "classifier": {
+      "hidden_size": 512,
+      "dropout_rate": 0.5
+    }
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 32,
+    "lr": 0.00005,
+    "optimizer": "Adam",
+    "criterion": "CrossEntropyLoss",
+    "device": "cuda"
+  },
+  "experiment": {
+    "wandb_project": "animals",
+    "wandb_name": "CustomCNN_v2_Deeper",
+    "log_interval": 1
+  }
+}
