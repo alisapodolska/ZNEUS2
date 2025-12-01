@@ -1,0 +1,104 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            7qlphd8i1biffe9pbmsyw3thra5xwqlg:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 20
+                    memoryGb: 24
+                    name: Apple M4 Pro
+                    pcpuCores: 10
+                    ramTotalBytes: "25769803776"
+                    swapTotalBytes: "3221225472"
+                cpu_count: 14
+                cpu_count_logical: 14
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "296998748160"
+                email: xpodolskaa@stuba.sk
+                executable: /Users/ulian/Downloads/zneus_2025-master/.venv/bin/python
+                git:
+                    commit: 1aef859a1d1d17bfca17816810bbb9c24e6adc9d
+                    remote: https://github.com/alisapodolska/ZNEUS2.git
+                host: MacBook-Pro-7.local
+                memory:
+                    total: "25769803776"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: ZNEUS2/animal_classification.ipynb
+                python: CPython 3.11.2
+                root: /Users/ulian/Downloads/zneus_2025-master/ZNEUS2
+                startedAt: "2025-12-01T17:46:41.422298Z"
+                writerId: 7qlphd8i1biffe9pbmsyw3thra5xwqlg
+        m: []
+        python_version: 3.11.2
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.2
+            "5": 0.22.0
+            "8":
+                - 1
+            "12": 0.22.0
+            "13": darwin-arm64
+experiment:
+    value:
+        log_interval: 1
+        wandb_name: CustomCNN_v2_Deeper
+        wandb_project: animals
+model:
+    value:
+        blocks:
+            - in_channels: 3
+              kernel_size: 3
+              out_channels: 32
+              padding: 1
+            - in_channels: 32
+              kernel_size: 3
+              out_channels: 64
+              padding: 1
+            - in_channels: 64
+              kernel_size: 3
+              out_channels: 128
+              padding: 1
+            - in_channels: 128
+              kernel_size: 3
+              out_channels: 256
+              padding: 1
+            - in_channels: 256
+              kernel_size: 3
+              out_channels: 512
+              padding: 1
+        classifier:
+            dropout_rate: 0.5
+            fc_layers:
+                - in: null
+                  out: 512
+            hidden_size: 512
+        input_size: 224
+        name: CustomCNN_v2
+        num_classes: 10
+training:
+    value:
+        batch_size: 32
+        criterion: CrossEntropyLoss
+        device: cpu
+        epochs: 20
+        lr: 5e-05
+        optimizer: Adam
+        use_bn: false

@@ -11,6 +11,7 @@
       {"in_channels": 256, "out_channels": 512, "kernel_size": 3, "padding": 1}
     ],
     "classifier": {
+      "hidden_size": 512,
       "fc_layers": [{"in": null, "out": 512}],
       "dropout_rate": 0.5
     }
@@ -21,7 +22,7 @@
     "lr": 0.00005,
     "optimizer": "Adam",
     "criterion": "CrossEntropyLoss",
-    "device": "cuda",
+    "device": "cpu",
     "use_bn": false
   },
   "experiment": {

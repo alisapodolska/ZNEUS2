@@ -1,0 +1,50 @@
+2025-12-01 18:38:25,931 INFO    MainThread:8718 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /Users/ulian/Downloads/zneus_2025-master/ZNEUS2/wandb/run-20251201_183825-girosa3w/logs/debug.log
+2025-12-01 18:38:25,931 INFO    MainThread:8718 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /Users/ulian/Downloads/zneus_2025-master/ZNEUS2/wandb/run-20251201_183825-girosa3w/logs/debug-internal.log
+2025-12-01 18:38:25,931 INFO    MainThread:8718 [wandb_init.py:init():813] calling init triggers
+2025-12-01 18:38:25,931 INFO    MainThread:8718 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'model': {'name': 'CustomCNN_v1', 'input_size': 224, 'num_classes': 10, 'blocks': [{'in_channels': 3, 'out_channels': 32, 'kernel_size': 3, 'padding': 1}, {'in_channels': 32, 'out_channels': 64, 'kernel_size': 3, 'padding': 1}, {'in_channels': 64, 'out_channels': 128, 'kernel_size': 3, 'padding': 1}, {'in_channels': 128, 'out_channels': 256, 'kernel_size': 3, 'padding': 1}], 'classifier': {'hidden_size': 512, 'fc_layers': [{'in': None, 'out': 512}], 'dropout_rate': 0.5}}, 'training': {'epochs': 15, 'batch_size': 32, 'lr': 0.0001, 'optimizer': 'Adam', 'criterion': 'CrossEntropyLoss', 'device': 'cpu', 'use_bn': False}, 'experiment': {'wandb_project': 'animals', 'wandb_name': 'CustomCNN_v1', 'log_interval': 1}, '_wandb': {}}
+2025-12-01 18:38:31,738 WARNING MainThread:8718 [wandb_init.py:init():1571] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1562, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 834, in init
+    self._wl.finish_all_active_runs()
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_setup.py", line 166, in finish_all_active_runs
+    run.finish()
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2260, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2483, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2735, in _on_finish
+    wait_with_progress(
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 77, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ulian/Downloads/zneus_2025-master/.venv/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-12-01 18:46:35,550 INFO    MainThread:8718 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-12-01 18:46:41,396 INFO    MainThread:8718 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-12-01 18:46:41,396 INFO    MainThread:8718 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-12-01 18:47:11,010 INFO    MainThread:8718 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
