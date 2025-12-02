@@ -5,9 +5,9 @@
 **Task:** Image Classification (10 classes minimum) — Animals10 Dataset from Kaggle  
 **Date:** December 01, 2025  
 
-This project implements a multi-class image classification system for the Animals10 dataset, featuring 10 animal classes (cat, squirrel, cow, spider, sheep, elephant, horse, dog, butterfly, chicken). We adhered to the project requirements: exploratory data analysis (EDA), preprocessing/normalization/split/augmentations, configuration via JSON for dynamic models, experiment tracking with Weights & Biases (WandB), meaningful experiments with improvements (e.g., Dropout, Normalization layers like BatchNorm, Skip Connections in later models, LR scheduler), results with evaluation metrics (accuracy, loss, test eval), clear code with Markdown documentation/comments, and preparation for final presentation. Custom dataset/problem was not used; we selected Animals10 (first-come, first-serve via Google Sheet).
+This project implements a multi-class image classification task for the Animals10 dataset, featuring 10 animal classes (cat, squirrel, cow, spider, sheep, elephant, horse, dog, butterfly, chicken). We adhered to the project requirements: exploratory data analysis (EDA), preprocessing/normalization/split/augmentations, configuration via JSON for dynamic models, experiment tracking with Weights & Biases (WandB), meaningful experiments with improvements (e.g., Dropout, Normalization layers like BatchNorm, Skip Connections in later models, LR scheduler), results with evaluation metrics (accuracy, loss, test eval), clear code with Markdown documentation/comments, and preparation for final presentation.
 
-The project is divided into weeks: Week 1 (EDA & Preprocessing), Week 2 (Custom Dynamic CNN Experiments), Week 3 (Pretrained Models). All code is modular, reproducible (random_state=42), and GPU-accelerated (CUDA). Evaluation metrics: Accuracy (primary for classification), CrossEntropyLoss; future: F1-score for imbalance.
+The project is divided into weeks: Week 1 (EDA & Preprocessing), Week 2 (Custom Dynamic CNN Experiments), Week 3 (Pretrained Models) Week 4 (more experiments, Grad-CAM, final metrics). All code is GPU-accelerated (CUDA). Evaluation metrics: Accuracy (primary for classification), CrossEntropyLoss; future: F1-score for imbalance.
 
 ---
 
@@ -34,7 +34,7 @@ This week focused on loading, exploring, cleaning, splitting, and augmenting the
 | butterfly | 2112  |
 | chicken   | 3098  |
 
-- **Insight:** Imbalance noted (addressed later via augmentations/weighted loss potential); spider/dog dominate.
+- **Insight:** Imbalance noted, spider/dog dominate.
 
 ### Visual Sanity Check
 - Random sample (1 image per class) visualized via matplotlib grid (figsize=24x8).
@@ -51,11 +51,11 @@ This week focused on loading, exploring, cleaning, splitting, and augmenting the
 
 ### Data Split
 - Ratio: **Train 70%**, **Val 20%**, **Test 10%** (stratified via train_test_split, random_state=42).
-- Folders created: `dataset/train/val/test/{class}`; files copied (shutil).
+- Folders created: `dataset/train/val/test/{class}`; files copied.
 - Preserves class balance in splits.
 
 ### Resize & Normalization
-- **Target:** 224x224 (balances detail/compute).
+- **Target:** 224x224.
 - **Transforms (Val/Test):** Resize → ToTensor → Normalize (ImageNet stats: mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225]).
 - **Post-Transform Check:** Boxplot confirmed uniform 224x224; sample visualization (permute for RGB display).
 
@@ -111,6 +111,17 @@ Benchmarked 6 pretrained ImageNet models (Torchvision) as baselines: LeNet (simp
 | DenseNet-121 | 8       | 0.94           | 0.93    | Feature reuse; efficient for detail-rich animals. |
 | MobileNet-v2 | 3.5     | 0.93           | 0.92    | Lightweight; suitable for edge deployment. |
 
-- **Training:** Reused train_epoch/eval_epoch; Inception custom (tuple outputs). Timing: ~7s/epoch (LeNet) to ~17s (AlexNet).
+- **Training:** Reused train_epoch/eval_epoch; Inception custom (tuple outputs).
 - **Insights:** Pretrained > custom (90%+ vs 70%); ResNet/DenseNet top (skip/dense connections = improvements). Overfitting minimal (augmentations help).
-- **WandB:** Separate runs; config logs model type/lr/batch.
+- **WandB:** Separate runs; config logs model metrics.
+
+---
+
+## Week 4 — Final changes
+Plan: 
+- More Experiments
+- Try not pre-trained existing architectures (AlexNet, VGG16 ...)
+- Implement Grad-CAM (bonus task)
+- Evaluate best model
+- Final metrics + conflusion matrix
+- Code cleaning + add markdowns
