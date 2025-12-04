@@ -1,0 +1,46 @@
+{
+  "os":  "Linux-6.8.0-87-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2025-12-02T08:26:12.612419Z",
+  "program":  "ZNEUS2/animal_classification.ipynb",
+  "codePath":  "ZNEUS2/animal_classification.ipynb",
+  "git":  {
+    "remote":  "https://github.com/alisapodolska/ZNEUS2.git",
+    "commit":  "311a9a7d7ab038c64986dcedc8f39242be3a4d5f"
+  },
+  "email":  "xpodolskaa@stuba.sk",
+  "root":  "/home/podolska/ZNEUS2",
+  "host":  "gaia",
+  "executable":  "/home/podolska/myenv/bin/python",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "3936290357248",
+      "used":  "25355370496"
+    }
+  },
+  "memory":  {
+    "total":  "540290535424"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada",
+      "uuid":  "GPU-74b73fec-3784-28ec-4d28-f8a69c01a33d"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada",
+      "uuid":  "GPU-97ac5852-ce89-8114-ee9f-0b1222a3558f"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "ae62vldkt82pvf0zug55wxwiw5lwu6zl"
+}

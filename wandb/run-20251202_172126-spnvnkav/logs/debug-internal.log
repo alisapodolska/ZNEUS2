@@ -1,0 +1,12 @@
+{"time":"2025-12-02T17:21:27.805480925+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-12-02T17:21:28.088603939+01:00","level":"INFO","msg":"stream: created new stream","id":"spnvnkav"}
+{"time":"2025-12-02T17:21:28.08869049+01:00","level":"INFO","msg":"handler: started","stream_id":"spnvnkav"}
+{"time":"2025-12-02T17:21:28.088833306+01:00","level":"INFO","msg":"stream: started","id":"spnvnkav"}
+{"time":"2025-12-02T17:21:28.088880928+01:00","level":"INFO","msg":"writer: started","stream_id":"spnvnkav"}
+{"time":"2025-12-02T17:21:28.088886096+01:00","level":"INFO","msg":"sender: started","stream_id":"spnvnkav"}
+{"time":"2025-12-02T17:21:36.350722321+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-02T17:21:36.610818207+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-02T17:21:36.61324381+01:00","level":"INFO","msg":"stream: closing","id":"spnvnkav"}
+{"time":"2025-12-02T17:21:36.613252083+01:00","level":"INFO","msg":"handler: closed","stream_id":"spnvnkav"}
+{"time":"2025-12-02T17:21:36.613298103+01:00","level":"INFO","msg":"sender: closed","stream_id":"spnvnkav"}
+{"time":"2025-12-02T17:21:36.613303841+01:00","level":"INFO","msg":"stream: closed","id":"spnvnkav"}

@@ -1,0 +1,2 @@
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /home/podolska/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 528M/528M [00:04<00:00, 113MB/s]

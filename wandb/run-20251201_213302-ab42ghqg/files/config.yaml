@@ -1,0 +1,109 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            jqa0gmtxbjkqn7ad6teb1ech5vbmovnj:
+                codePath: ZNEUS2/animal_classification.ipynb
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "3936290357248"
+                        used: "25349394432"
+                email: xpodolskaa@stuba.sk
+                executable: /home/podolska/myenv/bin/python
+                git:
+                    commit: 311a9a7d7ab038c64986dcedc8f39242be3a4d5f
+                    remote: https://github.com/alisapodolska/ZNEUS2.git
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-74b73fec-3784-28ec-4d28-f8a69c01a33d
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-97ac5852-ce89-8114-ee9f-0b1222a3558f
+                host: gaia
+                memory:
+                    total: "540290535424"
+                os: Linux-6.8.0-87-generic-x86_64-with-glibc2.35
+                program: ZNEUS2/animal_classification.ipynb
+                python: CPython 3.10.12
+                root: /home/podolska/ZNEUS2
+                startedAt: "2025-12-01T20:33:02.127174Z"
+                writerId: jqa0gmtxbjkqn7ad6teb1ech5vbmovnj
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.22.3
+            "8":
+                - 1
+            "12": 0.22.3
+            "13": linux-x86_64
+experiment:
+    value:
+        log_interval: 1
+        wandb_name: CustomCNN_v2_Deeper
+        wandb_project: animals
+model:
+    value:
+        blocks:
+            - in_channels: 3
+              kernel_size: 3
+              out_channels: 32
+              padding: 1
+            - in_channels: 32
+              kernel_size: 3
+              out_channels: 64
+              padding: 1
+            - in_channels: 64
+              kernel_size: 3
+              out_channels: 128
+              padding: 1
+            - in_channels: 128
+              kernel_size: 3
+              out_channels: 256
+              padding: 1
+            - in_channels: 256
+              kernel_size: 3
+              out_channels: 512
+              padding: 1
+        classifier:
+            dropout_rate: 0.5
+            fc_layers:
+                - in: null
+                  out: 512
+            hidden_size: 512
+        input_size: 224
+        name: CustomCNN_v2
+        num_classes: 10
+training:
+    value:
+        batch_size: 32
+        criterion: CrossEntropyLoss
+        device: cpu
+        epochs: 20
+        lr: 5e-05
+        optimizer: Adam
+        use_bn: false

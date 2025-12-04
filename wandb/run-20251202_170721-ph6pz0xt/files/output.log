@@ -1,0 +1,16 @@
+Model time: 14.48s, Loader time: 72.80s
+[1/15] Train Acc=0.0746  Val Acc=0.0733
+Model time: 14.08s, Loader time: 69.68s
+[2/15] Train Acc=0.0744  Val Acc=0.0709
+Model time: 14.08s, Loader time: 69.24s
+[3/15] Train Acc=0.0736  Val Acc=0.0736
+Model time: 14.07s, Loader time: 69.34s
+[4/15] Train Acc=0.0736  Val Acc=0.0737
+Model time: 14.07s, Loader time: 69.86s
+[5/15] Train Acc=0.0722  Val Acc=0.0736
+Model time: 14.09s, Loader time: 69.96s
+[6/15] Train Acc=0.0728  Val Acc=0.0723
+Model time: 14.04s, Loader time: 70.01s
+[7/15] Train Acc=0.0728  Val Acc=0.0732
+Model time: 14.04s, Loader time: 69.92s
+[8/15] Train Acc=0.0739  Val Acc=0.0718

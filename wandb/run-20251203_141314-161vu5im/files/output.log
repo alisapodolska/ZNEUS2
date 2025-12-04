@@ -1,0 +1,5 @@
+Model time: 12.85s, Loader time: 66.97s
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()

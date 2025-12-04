@@ -1,0 +1,6 @@
+{"time":"2025-12-01T23:18:35.662113903+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-12-01T23:18:35.953815493+01:00","level":"INFO","msg":"stream: created new stream","id":"ruisn5xp"}
+{"time":"2025-12-01T23:18:35.953928823+01:00","level":"INFO","msg":"handler: started","stream_id":"ruisn5xp"}
+{"time":"2025-12-01T23:18:35.954188334+01:00","level":"INFO","msg":"stream: started","id":"ruisn5xp"}
+{"time":"2025-12-01T23:18:35.954236487+01:00","level":"INFO","msg":"writer: started","stream_id":"ruisn5xp"}
+{"time":"2025-12-01T23:18:35.954267533+01:00","level":"INFO","msg":"sender: started","stream_id":"ruisn5xp"}

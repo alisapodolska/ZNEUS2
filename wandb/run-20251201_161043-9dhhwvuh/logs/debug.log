@@ -1,0 +1,12 @@
+2025-12-01 16:10:43,737 INFO    MainThread:15468 [wandb_init.py:setup_run_log_directory():706] Logging user logs to /home/podolska/ZNEUS2/wandb/run-20251201_161043-9dhhwvuh/logs/debug.log
+2025-12-01 16:10:43,737 INFO    MainThread:15468 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to /home/podolska/ZNEUS2/wandb/run-20251201_161043-9dhhwvuh/logs/debug-internal.log
+2025-12-01 16:10:43,737 INFO    MainThread:15468 [wandb_init.py:init():833] calling init triggers
+2025-12-01 16:10:43,737 INFO    MainThread:15468 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-12-01 16:10:45,005 INFO    MainThread:15468 [wandb_init.py:init():881] starting backend
+2025-12-01 16:10:45,005 INFO    MainThread:15468 [wandb_init.py:init():884] sending inform_init request
+2025-12-01 16:10:45,005 INFO    MainThread:15468 [wandb_init.py:init():892] backend started and connected
+2025-12-01 16:10:45,007 INFO    MainThread:15468 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2025-12-01 16:10:45,007 INFO    MainThread:15468 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-12-01 16:10:45,007 INFO    MainThread:15468 [wandb_init.py:init():962] updated telemetry
+2025-12-01 16:10:45,012 INFO    MainThread:15468 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout

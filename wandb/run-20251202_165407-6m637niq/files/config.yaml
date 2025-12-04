@@ -1,0 +1,61 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            uoa2y3qfe906c9kp3prawsd1hh55s0oo:
+                codePath: ZNEUS2/animal_classification.ipynb
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "3936290357248"
+                        used: "25380847616"
+                email: xpodolskaa@stuba.sk
+                executable: /home/podolska/myenv/bin/python
+                git:
+                    commit: 311a9a7d7ab038c64986dcedc8f39242be3a4d5f
+                    remote: https://github.com/alisapodolska/ZNEUS2.git
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-74b73fec-3784-28ec-4d28-f8a69c01a33d
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-97ac5852-ce89-8114-ee9f-0b1222a3558f
+                host: gaia
+                memory:
+                    total: "540290539520"
+                os: Linux-6.8.0-87-generic-x86_64-with-glibc2.35
+                program: ZNEUS2/animal_classification.ipynb
+                python: CPython 3.10.12
+                root: /home/podolska/ZNEUS2
+                startedAt: "2025-12-02T15:54:07.697815Z"
+                writerId: uoa2y3qfe906c9kp3prawsd1hh55s0oo
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+            "4": 3.10.12
+            "5": 0.22.3
+            "8":
+                - 1
+            "12": 0.22.3
+            "13": linux-x86_64

@@ -1,0 +1,6 @@
+{"time":"2025-12-01T18:09:31.758153438+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-12-01T18:09:32.045525761+01:00","level":"INFO","msg":"stream: created new stream","id":"rilplc8g"}
+{"time":"2025-12-01T18:09:32.04565331+01:00","level":"INFO","msg":"handler: started","stream_id":"rilplc8g"}
+{"time":"2025-12-01T18:09:32.045749712+01:00","level":"INFO","msg":"stream: started","id":"rilplc8g"}
+{"time":"2025-12-01T18:09:32.045770874+01:00","level":"INFO","msg":"writer: started","stream_id":"rilplc8g"}
+{"time":"2025-12-01T18:09:32.045785866+01:00","level":"INFO","msg":"sender: started","stream_id":"rilplc8g"}

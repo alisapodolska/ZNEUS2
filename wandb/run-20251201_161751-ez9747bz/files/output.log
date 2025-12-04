@@ -1,0 +1,32 @@
+Model time: 65.80s, Loader time: 71.73s
+[1/15] Train Acc=0.8890  Val Acc=0.9554
+Model time: 65.45s, Loader time: 73.08s
+[2/15] Train Acc=0.9367  Val Acc=0.9679
+Model time: 65.42s, Loader time: 73.18s
+[3/15] Train Acc=0.9481  Val Acc=0.9740
+Model time: 65.44s, Loader time: 73.18s
+[4/15] Train Acc=0.9540  Val Acc=0.9700
+Model time: 65.44s, Loader time: 72.32s
+[5/15] Train Acc=0.9578  Val Acc=0.9737
+Model time: 65.44s, Loader time: 72.88s
+[6/15] Train Acc=0.9651  Val Acc=0.9784
+Model time: 65.43s, Loader time: 72.59s
+[7/15] Train Acc=0.9664  Val Acc=0.9708
+Model time: 65.44s, Loader time: 72.20s
+[8/15] Train Acc=0.9713  Val Acc=0.9789
+Model time: 65.42s, Loader time: 72.63s
+[9/15] Train Acc=0.9731  Val Acc=0.9718
+Model time: 65.46s, Loader time: 72.68s
+[10/15] Train Acc=0.9735  Val Acc=0.9784
+Model time: 65.42s, Loader time: 72.95s
+[11/15] Train Acc=0.9740  Val Acc=0.9785
+Model time: 65.43s, Loader time: 72.95s
+[12/15] Train Acc=0.9739  Val Acc=0.9765
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:

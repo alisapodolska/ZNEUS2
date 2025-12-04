@@ -1,0 +1,21 @@
+[1/15] Train Acc=0.1145  Val Acc=0.1179
+[2/15] Train Acc=0.1168  Val Acc=0.1185
+[3/15] Train Acc=0.1160  Val Acc=0.1172
+[4/15] Train Acc=0.1155  Val Acc=0.1160
+[5/15] Train Acc=0.1172  Val Acc=0.1180
+[6/15] Train Acc=0.1172  Val Acc=0.1205
+[7/15] Train Acc=0.1152  Val Acc=0.1153
+[8/15] Train Acc=0.1156  Val Acc=0.1176
+[9/15] Train Acc=0.1148  Val Acc=0.1177
+[10/15] Train Acc=0.1136  Val Acc=0.1088
+[11/15] Train Acc=0.1140  Val Acc=0.1082
+[12/15] Train Acc=0.1162  Val Acc=0.1142
+[13/15] Train Acc=0.1167  Val Acc=0.1156
+[14/15] Train Acc=0.1150  Val Acc=0.1124
+[15/15] Train Acc=0.1159  Val Acc=0.1162
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
