@@ -1,0 +1,8 @@
+{"time":"2025-12-05T22:29:57.433044+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-12-05T22:29:57.745031+01:00","level":"INFO","msg":"stream: created new stream","id":"59qbjtp5"}
+{"time":"2025-12-05T22:29:57.745252+01:00","level":"INFO","msg":"handler: started","stream_id":"59qbjtp5"}
+{"time":"2025-12-05T22:29:57.745263+01:00","level":"INFO","msg":"sender: started","stream_id":"59qbjtp5"}
+{"time":"2025-12-05T22:29:57.745394+01:00","level":"INFO","msg":"stream: started","id":"59qbjtp5"}
+{"time":"2025-12-05T22:29:57.745419+01:00","level":"INFO","msg":"writer: started","stream_id":"59qbjtp5"}
+{"time":"2025-12-05T22:31:29.134116+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/xpodolskaa-stuba/animals/59qbjtp5/file_stream"}
+{"time":"2025-12-05T22:31:29.135672+01:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/xpodolskaa-stuba/animals/59qbjtp5/file_stream: {\"error\":\"run animals/59qbjtp5 not found while streaming file\"}"}

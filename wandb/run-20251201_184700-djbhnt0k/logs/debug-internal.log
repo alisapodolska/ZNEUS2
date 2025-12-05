@@ -4,3 +4,4 @@
 {"time":"2025-12-01T18:47:02.390585+01:00","level":"INFO","msg":"handler: started","stream_id":"djbhnt0k"}
 {"time":"2025-12-01T18:47:02.3906+01:00","level":"INFO","msg":"writer: started","stream_id":"djbhnt0k"}
 {"time":"2025-12-01T18:47:02.390637+01:00","level":"INFO","msg":"sender: started","stream_id":"djbhnt0k"}
+{"time":"2025-12-01T19:04:33.570334+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.10.20.192:49978->35.186.228.49:443: read: connection reset by peer"}

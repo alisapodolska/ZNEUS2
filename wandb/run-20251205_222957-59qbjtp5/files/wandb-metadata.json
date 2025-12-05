@@ -1,0 +1,35 @@
+{
+  "os":  "macOS-15.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.11.2",
+  "startedAt":  "2025-12-05T21:29:57.172916Z",
+  "program":  "ZNEUS2/animal_classification.ipynb",
+  "git":  {
+    "remote":  "https://github.com/alisapodolska/ZNEUS2.git",
+    "commit":  "95361b1d887e2988f12d795cde4ed250c7a3a190"
+  },
+  "email":  "xpodolskaa@stuba.sk",
+  "root":  "/Users/ulian/Downloads/zneus_2025-master/ZNEUS2",
+  "host":  "MacBook-Pro-8.local",
+  "executable":  "/Users/ulian/Downloads/zneus_2025-master/.venv/bin/python",
+  "cpu_count":  14,
+  "cpu_count_logical":  14,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "320844869632"
+    }
+  },
+  "memory":  {
+    "total":  "25769803776"
+  },
+  "apple":  {
+    "name":  "Apple M4 Pro",
+    "ecpuCores":  4,
+    "pcpuCores":  10,
+    "gpuCores":  20,
+    "memoryGb":  24,
+    "swapTotalBytes":  "18253611008",
+    "ramTotalBytes":  "25769803776"
+  },
+  "writerId":  "dbdfmkgte7onxc8qpbsaqhhe0m9ppv24"
+}
