@@ -22,7 +22,7 @@
     "lr": 0.00005,
     "optimizer": "Adam",
     "criterion": "CrossEntropyLoss",
-    "device": "cpu",
+    "device": "cuda",
     "use_bn": false
   },
   "experiment": {
