@@ -85,8 +85,8 @@ Implemented a **fully dynamic CNN** (`ConfigurableAnimalModel`) built from JSON 
 | Variant | Blocks | Optimizer/LR | Epochs | Val Acc (Final) | Test Acc | Key Improvement |
 |---------|--------|--------------|--------|-----------------|----------|-----------------|
 | v1     | 4     | Adam/1e-4   | 15    | 0.6063         | 0.60    | Baseline (1 FC layer) |
-| v2     | 5     | Adam/5e-5   | 20    | 0.6401           | 0.64    | Deeper conv (better features) |
-| v3     | 5     | SGD/0.01 + Scheduler | 25 | 0.7021           | 0.69    | BN + adaptive LR (stability) |
+| v2     | 5     | Adam/5e-5   | 20    | 0.79           | 0.73    | Deeper conv (better features) |
+| v3     | 5     | SGD/0.01 + Scheduler | 25 | 0.87           | 0.86    | BN + adaptive LR (stability) |
 
 - **Dynamic Features:** JSON controls all (e.g., fc_layers=[{"in":null,"out":1024},{"in":1024,"out":512}] for multi-hidden in v3). No code changes needed.
 - **Tracking:** WandB logs epoch-wise acc/loss/LR; configs auto-saved for reproducibility.
@@ -100,15 +100,15 @@ Aligns with requirements: Configuration (JSON), Experiments (progressive improve
 
 Benchmarked 6 pretrained ImageNet models (Torchvision) as baselines: LeNet (simple), AlexNet/VGG16 (classic), Inception-v1 (multi-branch), ResNet-50 (residual), DenseNet-121 (dense), MobileNet-v2 (lightweight). All fine-tuned (replace final FC to 10 classes, lr=1e-4 Adam, 15 epochs). Special handling: Inception aux-loss (weighted 0.3). Metrics logged to WandB; test eval added.
 
-**Results Summary (from WandB runs):**
+**Results Summary pre-trained versions (from WandB runs):**
 | Model       | Params (M) | Val Acc (Final) | Test Acc | Notes |
 |-------------|------------|-----------------|----------|-------|
 | LeNet      | 0.06      | 0.6063         | 0.60    | Baseline; simple conv (adapted for 224x224). |
-| AlexNet    | 60        | 0.9510         | 0.95    | Fast convergence (~0.83→0.95); good transfer. |
-| VGG16      | 138       | 0.92           | 0.91    | Deep uniform conv; stable but compute-heavy. |
-| Inception-v1 | 7       | 0.88           | 0.87    | Aux classifiers aid early learning; multi-scale. |
-| ResNet-50  | 25        | 0.96           | 0.95    | Best overall; residuals prevent degradation. |
-| DenseNet-121 | 8       | 0.94           | 0.93    | Feature reuse; efficient for detail-rich animals. |
+| AlexNet    | 60        | 0.96           | 0.97   | Fast convergence (~0.83→0.95); good transfer. |
+| VGG16      | 138       | 0.97           | 0.97    | Deep uniform conv; stable but compute-heavy. |
+| Inception-v1 | 7       | 0.99           | 0.99    | Aux classifiers aid early learning; multi-scale. |
+| ResNet-50  | 25        | 0.98           | 0.98    | Residuals prevent degradation. |
+| DenseNet-121 | 8       | 0.99           | 0.99    | Feature reuse; efficient for detail-rich animals. |
 | MobileNet-v2 | 3.5     | 0.93           | 0.92    | Lightweight; suitable for edge deployment. |
 
 - **Training:** Reused train_epoch/eval_epoch; Inception custom (tuple outputs).
@@ -118,10 +118,39 @@ Benchmarked 6 pretrained ImageNet models (Torchvision) as baselines: LeNet (simp
 ---
 
 ## Week 4 — Final changes
-Plan: 
-- More Experiments
-- Try not pre-trained existing architectures (AlexNet, VGG16 ...)
-- Implement Grad-CAM (bonus task)
-- Evaluate best model
-- Final metrics + conflusion matrix
-- Code cleaning + add markdowns
+## Summary
+
+During this week, we defined and partially executed the following plan:
+- Run more experiments  
+- Test non-pretrained versions of existing architectures (AlexNet, VGG16, etc.)  
+- Implement Grad-CAM as a bonus task  
+- Evaluate the best-performing model  
+- Compute final metrics and confusion matrix  
+- Clean the codebase and add structured markdown documentation  
+
+### Implemented Experiments and Results
+
+- A **non-pretrained Inception model** was trained, but it showed **negative performance results** and did not reach a satisfactory accuracy level.  
+- A **non-pretrained ResNet model** was also trained and achieved **positive results**, with an approximate val accuracy of **74%**. However, this is still **worse than the performance of our V3 custom model**.
+
+### Model Evaluation Improvements
+
+- An **improved evaluation pipeline** was implemented for the **V3 model**, including:
+  - Confusion Matrix  
+  - ROC Curve  
+  - Additional classification metrics  
+
+### Grad-CAM Implementation
+
+- **Grad-CAM visualization** was successfully implemented.
+- Different Grad-CAM cases were analyzed, including both correct and incorrect model attention examples.
+- Detailed interpretations of these cases are provided directly in the notebook.
+
+### Notebook Refinement
+
+- The entire notebook was **better structured and reorganized**.
+- Additional **comments and markdown sections** were added for easier readability.
+- The codebase was **cleaned and optimized**, and unnecessary outputs were removed.
+
+Overall, this week focused on deeper experimentation, model interpretability, and improving the clarity and structure of the entire project. 
+
