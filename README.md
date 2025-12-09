@@ -110,6 +110,7 @@ Benchmarked 6 pretrained ImageNet models (Torchvision) as baselines: LeNet (simp
 | ResNet-50  | 25        | 0.98           | 0.98    | Residuals prevent degradation. |
 | DenseNet-121 | 8       | 0.99           | 0.99    | Feature reuse; efficient for detail-rich animals. |
 | MobileNet-v2 | 3.5     | 0.93           | 0.92    | Lightweight; suitable for edge deployment. |
+| ResNet-50(not pre-t.) | 25        | 0.74           | 0.70    | Residuals prevent degradation. |
 
 - **Training:** Reused train_epoch/eval_epoch; Inception custom (tuple outputs).
 - **Insights:** Pretrained > custom (90%+ vs 70%); ResNet/DenseNet top (skip/dense connections = improvements). Overfitting minimal (augmentations help).
